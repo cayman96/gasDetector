@@ -3,8 +3,7 @@
 //piny na led, buzzer i analogowe wejście
 #define led 0
 #define buzz 1
-#define sensor 1 //UWAGA, to jest pin P2, ale z jakiegoś powodu ATTiny85 rozpoznaje analogowe wejście jako 1. Odsyłam do pinoutu.
-// czas na mignięcie
+#define sensor 1
 unsigned long prevTime = 0;
 const long ivl = 10000;
 
